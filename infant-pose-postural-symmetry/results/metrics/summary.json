@@ -1,0 +1,33 @@
+{
+  "label_mode": "geometric",
+  "images": 700,
+  "folds": 5,
+  "pose_test500": {
+    "HRNet-W32 FT": {
+      "AP": 0.909,
+      "PCK@0.05": 0.872
+    },
+    "HRNet-W32 zero-shot": {
+      "AP": 0.853,
+      "PCK@0.05": 0.827
+    },
+    "RTMPose-S FT": {
+      "AP": 0.878,
+      "PCK@0.05": 0.841
+    },
+    "RTMPose-S zero-shot": {
+      "AP": 0.799,
+      "PCK@0.05": 0.778
+    }
+  },
+  "baseline": {
+    "pipeline": "HRNet-W32 zero-shot + angle threshold",
+    "AUROC": 0.84
+  },
+  "best": {
+    "pipeline": "HRNet-W32 FT + GAT + geo",
+    "AUROC": 0.894,
+    "kappa_sym": 0.609,
+    "weighted_kappa_angle": 0.688
+  }
+}

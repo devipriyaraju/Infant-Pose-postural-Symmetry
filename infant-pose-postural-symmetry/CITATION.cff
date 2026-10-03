@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the original WACV 2023 work and this repository where appropriate."
+title: "Infant Pose Estimation and Postural Symmetry Assessment"
+type: software
+authors:
+  - family-names: "Raju"
+    given-names: "Devipriya"
+version: 0.1.0
+date-released: 2026-10-01
+license: "LicenseRef-Proprietary"
+references:
+  - type: conference-paper
+    title: "Computer Vision to the Rescue: Infant Postural Symmetry Estimation From Incongruent Annotations"
+    authors:
+      - family-names: Huang
+        given-names: Xiaofei
+      - family-names: Wan
+        given-names: Michael
+      - family-names: Luan
+        given-names: Lingfei
+      - family-names: Tunik
+        given-names: Bethany
+      - family-names: Ostadabbas
+        given-names: Sarah
+    year: 2023
+    conference:
+      name: "IEEE/CVF Winter Conference on Applications of Computer Vision"

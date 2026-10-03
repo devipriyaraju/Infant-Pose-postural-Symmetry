@@ -1,0 +1,17 @@
+NOTICE
+
+This repository contains an independent implementation and extension of methods related to infant pose estimation and postural symmetry assessment.
+
+Research reference:
+Xiaofei Huang, Michael Wan, Lingfei Luan, Bethany Tunik, and Sarah Ostadabbas.
+Computer Vision to the Rescue: Infant Postural Symmetry Estimation From Incongruent Annotations.
+WACV 2023.
+
+Original research repository:
+https://github.com/ostadabbas/Infant-Postural-Symmetry
+
+Dataset and model assets are not owned by this repository unless explicitly stated.
+
+Expanded SyRIP, MMPose, MMEngine, MMCV, pretrained model checkpoints, and any copied third party assets retain their original licenses and copyright notices.
+
+The restrictive LICENSE file in this repository applies only to original code and documentation authored for this repository. It does not replace or override third party licenses.

@@ -1,0 +1,5 @@
+variant,AUROC sym,kappa sym,weighted kappa angle,macro-F1 angle
+GAT + geo (full),0.894,0.609,0.688,0.641
+no mirror edges,0.894,0.614,0.684,0.643
+no flip-consistency loss,0.893,0.604,0.691,0.643
+no geo features (plain GAT),0.815,0.489,0.529,0.541

@@ -1,0 +1,5 @@
+source,clean,occlude_limb,dark,bright,blur,noise,rotate15
+HRNet-W32 FT,0.885,0.796,0.866,0.729,0.875,0.824,0.903
+HRNet-W32 zero-shot,0.829,0.749,0.809,0.691,0.816,0.796,0.834
+RTMPose-S FT,0.848,0.757,0.822,0.652,0.825,0.722,0.846
+RTMPose-S zero-shot,0.765,0.674,0.746,0.563,0.756,0.695,0.769

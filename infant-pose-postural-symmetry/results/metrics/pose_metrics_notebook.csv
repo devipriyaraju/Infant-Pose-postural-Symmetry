@@ -1,0 +1,13 @@
+source,subset,AP,PCK@0.05
+HRNet-W32 FT,SyRIP Test100,0.926,0.885
+HRNet-W32 FT,SyRIP test500,0.909,0.872
+HRNet-W32 FT,all 700 (OOF),0.912,0.879
+HRNet-W32 zero-shot,SyRIP Test100,0.852,0.829
+HRNet-W32 zero-shot,SyRIP test500,0.853,0.827
+HRNet-W32 zero-shot,all 700 (OOF),0.855,0.829
+RTMPose-S FT,SyRIP Test100,0.893,0.848
+RTMPose-S FT,SyRIP test500,0.878,0.841
+RTMPose-S FT,all 700 (OOF),0.883,0.845
+RTMPose-S zero-shot,SyRIP Test100,0.795,0.765
+RTMPose-S zero-shot,SyRIP test500,0.799,0.778
+RTMPose-S zero-shot,all 700 (OOF),0.803,0.78

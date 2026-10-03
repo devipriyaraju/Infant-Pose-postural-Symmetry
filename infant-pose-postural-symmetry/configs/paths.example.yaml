@@ -1,0 +1,3 @@
+data_dir: data/raw/expanded_SyRIP
+checkpoint_dir: checkpoints/mmpose
+project_dir: .

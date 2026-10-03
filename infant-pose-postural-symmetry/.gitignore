@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/annotations/*
+!data/annotations/.gitkeep
+data/splits/*
+!data/splits/.gitkeep
+
+# Model weights
+checkpoints/*
+!checkpoints/README.md
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# MMPose generated files
+work_dirs/
+pose_data/
+
+# Runtime caches and large predictions
+results/predictions/*.pkl
+results/predictions/*.pickle
+
+# Large caches
+*.pkl
+*.pickle
+*.npz
+results_cache_*
+
+# System
+.DS_Store
+Thumbs.db

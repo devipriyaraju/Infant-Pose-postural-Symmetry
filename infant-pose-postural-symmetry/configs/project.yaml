@@ -1,0 +1,26 @@
+seed: 0
+n_folds: 5
+
+data:
+  use_synthetic: true
+  use_extra_real: true
+  robustness_subset: test100
+
+pose_models:
+  RTMPose-S:
+    config: rtmpose-s_8xb256-420e_coco-256x192
+    epochs: 120
+    learning_rate: 0.0005
+    batch_size: 64
+
+  HRNet-W32:
+    config: td-hm_hrnet-w32_8xb64-210e_coco-256x192
+    epochs: 80
+    learning_rate: 0.0002
+    batch_size: 32
+
+symmetry:
+  classifier_seeds: [0, 1, 2]
+  gnn_epochs: 150
+  flip_loss_weight: 0.5
+  geometric_threshold_degrees: 39.1
