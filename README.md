@@ -479,11 +479,9 @@ $PROJECT/outputs/results_cache_*.pkl
 
 The most valuable files are the best checkpoints under each `work_dirs/<model>_fold*/` directory and the cached pose prediction PKL files. Those are enough to reproduce evaluation without retraining pose models.
 
-Do not upload the expanded SyRIP image archive to this repository unless its dataset license explicitly permits redistribution.
-
 ## Reference
 
-This project extends:
+This original project extends :
 
 Xiaofei Huang, Michael Wan, Lingfei Luan, Bethany Tunik, Sarah Ostadabbas.  
 "Computer Vision to the Rescue: Infant Postural Symmetry Estimation From Incongruent Annotations."  
@@ -493,15 +491,11 @@ Paper: https://openaccess.thecvf.com/content/WACV2023/html/Huang_Computer_Vision
 
 Original repository: https://github.com/ostadabbas/Infant-Postural-Symmetry
 
-SyRIP and FiDIP work should also be cited when their data, models, or annotations are used.
-
 ## Important note about the current results
 
 The uploaded notebook reports `LABEL_MODE = geometric`.
 
 This means the current numerical symmetry results are evaluated against geometric labels derived from ground truth keypoints, not against the original WACV human survey aggregate.
-
-If you later add `AsymmetryAnalysis*.xlsx` and `img_name700_map.npy`, the same code can run in human label mode and produce a closer comparison with the WACV 2023 study.
 
 ## License
 
